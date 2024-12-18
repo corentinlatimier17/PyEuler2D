@@ -1,0 +1,7 @@
+Mach Number (M_inf): 0.800000
+Angle of Attack (AOA): 1.250000
+Lift Coefficient (CL_wind): 0.364148
+Drag Coefficient (CD_wind): 0.022578
+Raw Lift Coefficient (CL_calc): 0.364554
+Raw Drag Coefficient (CD_calc): 0.014629
+Moment Coefficient (CM_calc): 0.041559
