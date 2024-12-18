@@ -18,7 +18,7 @@ itermax  = 500000
 CFL      = 1.0
 
 # Flow conditions
-M_inf = 1.5 # Mach number of freestream flow
+M_inf = 0.8 # Mach number of freestream flow
 AOA   = 0 # angle of attack [deg]
 
 # Beginning of the computation
@@ -28,7 +28,7 @@ time_start = time()
 mesh = Mesh(filepath=mesh_filepath, n_ghosts=n_ghosts)
 
 # Output paths -> defines where to store the results
-folder = "examples/NACA0012_M1.5/AOA_0/"
+folder = "examples/NACA0012_M0.8/AOA_0/"
 beginByName = "MESH_" + str(mesh.ni) + "_CFL_" + str(CFL) + "_"
 
 # Create the folder if it does not exist
@@ -50,9 +50,9 @@ W.init_flow(M_inf, AOA)
 # Apply boundary conditions
 W = apply_boundary_conditions(W, mesh, M_inf, AOA)
 
-centralscheme = CentralSchemeWithArtificialDissipation(mesh, k2=1/2, k4=1/32)
+centralscheme = CentralSchemeWithArtificialDissipation(mesh, k2=1/2, k4=1/16)
 RK2 = RK2(CFL, mesh, local_time=True)
-monitor = Monitor(centralscheme, RK2, itermax=itermax, eps=10**(-8))
+monitor = Monitor(centralscheme, RK2, itermax=itermax, eps=10**(-6))
 
 # Iteration loop
 monitor.iterate(mesh, W, M_inf, AOA)
