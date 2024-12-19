@@ -3,7 +3,27 @@
 The purpose of this solver is to compute fluid flow around airfoils by solving the **Euler equations** using the **Finite Volume Method (FVM)**. The key objectives are:  
 
 - **Accuracy**: Efficiently capture flow characteristics in subsonic, transonic, and supersonic regimes.  
-- **Speed**: The solver is entirely **vectorized**, enabling faster computations and efficient handling of large grids.  
+- **Speed**: The solver is entirely **vectorized**, enabling faster computations and efficient handling of large grids.
+- 
+# **Input and Output**
+
+## **Input**  
+The solver requires the following input:  
+- **Mesh Grid**: The computational mesh must be provided in **Plot3D** format. This format defines the grid points and the structure of the mesh.  
+- **Farfield Mach Number**: The freestream Mach number used to define the flow conditions at infinity.  
+- **Angle of Attack (AOA)**: The angle of attack of the airfoil, typically specified in degrees.  
+
+## **Output**  
+The solver generates the following outputs:  
+- **Cp Curve**: The pressure coefficient (\(C_p\)) curve along the surface of the airfoil, visualizing pressure distribution.  
+- **Aerodynamic Coefficients**:  
+  - **\(C_L\)**: Lift coefficient.  
+  - **\(C_D\)**: Drag coefficient.  
+  - **\(C_M\)**: Moment coefficient (calculated at the quarter chord).  
+- **Computational Time**: The total time taken for the simulation to run.  
+- **Residuals Plot**: A plot showing the convergence of the residuals during the simulation.  
+- **.dat File**: Data file containing the simulation results, which can be imported into **Tecplot 360** for further post-processing and visualization.
+
 
 # **Boundary Conditions**  
 - **Inflow and Outflow**: Implemented using Riemann invariants for both subsonic and supersonic flow conditions.  
