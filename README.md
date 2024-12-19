@@ -6,6 +6,7 @@ The purpose of this solver is to compute fluid flow around airfoils by solving t
 - **Speed**: The solver is entirely **vectorized**, enabling faster computations and efficient handling of large grids.
 
 <img src="examples/NACA0012_M0.8/AOA_1.25/images/pressure.png" alt="Pressure field for M=0.8, AOA = 1.25°" width="300"/>
+
 # **Input and Output**
 
 ## **Input**  
