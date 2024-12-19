@@ -2,7 +2,7 @@
 The `examples/` folder provides simulation results of the solver. The cases include:  
 
 - **Flow regimes**:  
-  - Subsonic \(M_{\infty} = 0.5\)  
+  - Subsonic \(M = 0.5\)  
   - Transonic \(M = 0.8\) 
   - Supersonic \(M = 1.5\)  
 - **Angles of Attack**:  
