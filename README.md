@@ -34,7 +34,7 @@ The solver relies on the following Python libraries and built-in modules:
 
 - **`os`**: Used for file and directory manipulation, including creating directories with `makedirs`.  
 - **`time`**: Utilized for performance tracking and timing the computation process.  
-- **`matplotlib`**: A plotting library for visualizing results, including flow field contours and convergence plots.  
+- **`matplotlib`**: A plotting library for visualizing results
 - **`numpy`**: A fundamental library for numerical computing, used for array manipulation and mathematical operations.
 
 These dependencies are essential for the solver’s operation and are listed in the `requirements.txt` file for easy installation.  
