@@ -5,6 +5,7 @@ The purpose of this solver is to compute fluid flow around airfoils by solving t
 - **Accuracy**: Efficiently capture flow characteristics in subsonic, transonic, and supersonic regimes.  
 - **Speed**: The solver is entirely **vectorized**, enabling faster computations and efficient handling of large grids.
 
+The figures below show the typical pressure distribution for different flow regimes (from left to right: supersonic, transonic, subsonic), with results obtained for an angle of attack of 1.25°.
 <div style="display: flex; justify-content: space-between;">
   <img src="examples/NACA0012_M1.5/AOA_1.25/images/pressure.png" alt="Pressure field for M=1.5, AOA = 1.25°" width="270"/>
   <img src="examples/NACA0012_M0.8/AOA_1.25/images/pressure.png" alt="Pressure field for M=0.8, AOA = 1.25°" width="270"/>
