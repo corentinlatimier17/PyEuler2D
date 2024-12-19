@@ -17,9 +17,9 @@ The solver requires the following input:
 The solver generates the following outputs:  
 - **Cp Curve**: The pressure coefficient \(C_p\) curve along the surface of the airfoil, visualizing pressure distribution.  
 - **Aerodynamic Coefficients**:  
-  - **\C_L\**: Lift coefficient.  
-  - **\C_D\**: Drag coefficient.  
-  - **\C_M\**: Moment coefficient (calculated at the quarter chord).  
+  - **Cl**: Lift coefficient.  
+  - **Cd**: Drag coefficient.  
+  - **Cm**: Moment coefficient (calculated at the quarter chord).  
 - **Computational Time**: The total time taken for the simulation to run.  
 - **Residuals Plot**: A plot showing the convergence of the residuals during the simulation.  
 - **.dat File**: Data file containing the simulation results, which can be imported into **Tecplot 360** for further post-processing and visualization.
