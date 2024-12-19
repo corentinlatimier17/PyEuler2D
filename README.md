@@ -1,11 +1,10 @@
 Examples
 
-The examples/ folder provides pre-configured simulation cases to test the solver. The cases include:
+The examples/ folder provides simulation results of the solver. The cases include:
 
-    Flow regimes: Subsonic, Transonic, and Supersonic.
+    Flow regimes: Subsonic (M = 0.5), Transonic (M=0.8), and Supersonic (M=1.5).
     Two angles of attack: 0° and 1.25°.
 
-For each case, you can find the input files and configuration details necessary to reproduce the results. These examples serve as templates for setting up your own simulations.
 Boundary Conditions
 
     Inflow and Outflow: Implemented using Riemann invariants for both subsonic and supersonic flow conditions.
@@ -21,7 +20,7 @@ The solver includes the following numerical methods:
         Runge-Kutta 2nd order (RK2) integration scheme.
     Time Stepping:
         Global time step for all grid cells.
-        Local time step for increased efficiency in capturing local flow dynamics.
+        Local time step for increased efficiency (acceleration technique).
 
 Code Structure
 
