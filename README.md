@@ -5,8 +5,6 @@ The purpose of this solver is to compute fluid flow around airfoils by solving t
 - **Accuracy**: Efficiently capture flow characteristics in subsonic, transonic, and supersonic regimes.  
 - **Speed**: The solver is entirely **vectorized**, enabling faster computations and efficient handling of large grids.  
 
-This solver serves as a foundation for exploring aerodynamics and numerical methods, providing a flexible framework for testing various flow scenarios and numerical techniques.  
-
 # **Boundary Conditions**  
 - **Inflow and Outflow**: Implemented using Riemann invariants for both subsonic and supersonic flow conditions.  
 - **Wall Boundary**: A no-slip condition is implemented to simulate the effects of a solid wall on the flow field.  
