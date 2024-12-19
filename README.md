@@ -2,12 +2,12 @@
 The `examples/` folder provides simulation results of the solver. The cases include:  
 
 - **Flow regimes**:  
-  - Subsonic (\(M = 0.5\))  
-  - Transonic (\(M = 0.8\))  
-  - Supersonic (\(M = 1.5\))  
+  - Subsonic \(M_{\infty} = 0.5\)  
+  - Transonic \(M = 0.8\) 
+  - Supersonic \(M = 1.5\)  
 - **Angles of Attack**:  
-  - \(0^\circ\)  
-  - \(1.25^\circ\)  
+  - 0°
+  - 1.25°
 
 # **Boundary Conditions**  
 - **Inflow and Outflow**: Implemented using Riemann invariants for both subsonic and supersonic flow conditions.  
