@@ -37,5 +37,3 @@ The solver relies on the following Python libraries and built-in modules:
 - **`matplotlib`**: A plotting library for visualizing results
 - **`numpy`**: A fundamental library for numerical computing, used for array manipulation and mathematical operations.
 
-These dependencies are essential for the solver’s operation and are listed in the `requirements.txt` file for easy installation.  
-
