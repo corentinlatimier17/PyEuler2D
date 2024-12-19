@@ -1,4 +1,4 @@
-This code was developed as part of the **Transonic Aerodynamics** course at **Polytechnique Montréal** by **Corentin Latimier**, **Tristan Defer** and **Paramvir Singh Lobana**.
+This code was developed as part of the **Transonic Aerodynamics** course at **Polytechnique Montréal** by **Corentin Latimier**, **Tristan Defer** and **Paramvir Lobana**.
 
 # **Objective**  
 
