@@ -15,7 +15,7 @@ The solver requires the following input:
 
 ## **Output**  
 The solver generates the following outputs:  
-- **Cp Curve**: The pressure coefficient (\(C_p\)) curve along the surface of the airfoil, visualizing pressure distribution.  
+- **Cp Curve**: The pressure coefficient \(C_p\) curve along the surface of the airfoil, visualizing pressure distribution.  
 - **Aerodynamic Coefficients**:  
   - **\(C_L\)**: Lift coefficient.  
   - **\(C_D\)**: Drag coefficient.  
