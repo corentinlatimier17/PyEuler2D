@@ -17,7 +17,7 @@ The solver includes the following numerical methods:
 - `NACA0012grids/`: Contains all the grids used.  
 - `modules/`: Source files of the solver (Python).  
 - `examples/`: Verification results for NACA0012 airfoil, including:  
-  - **Flow regimes**: Subsonic (\(M = 0.5\)), Transonic (\(M = 0.8\)), and Supersonic (\(M = 1.5\)).  
+  - **Flow regimes**: Subsonic \(M = 0.5\), Transonic \(M = 0.8\), and Supersonic \(M = 1.5\).  
   - **Angles of Attack**: \(0^\circ\) and \(1.25^\circ\).  
 - `main.py`: Main script to modify and adapt the simulation to your specific case.  
 
