@@ -11,12 +11,12 @@ The figures below show the typical pressure field for different flow regimes (fr
 <div style="display: flex; justify-content: space-between;">
   <img src="examples/NACA0012_M1.5/AOA_1.25/images/pressure.png" alt="Pressure field for M=1.5, AOA = 1.25°" width="270"/>
   <img src="examples/NACA0012_M0.8/AOA_1.25/images/pressure.png" alt="Pressure field for M=0.8, AOA = 1.25°" width="270"/>
-  <img src="examples/NACA0012_M0.5/AOA_0/images/pressure.png" alt="Pressure field for M=0.5, AOA = 0°" width="270"/>
+  <img src="examples/NACA0012_M0.5/AOA_1.25/images/pressure.png" alt="Pressure field for M=0.5, AOA = 1.25°" width="270"/>
 </div>
 <div style="display: flex; justify-content: space-between;">
   <img src="examples/NACA0012_M1.5/AOA_1.25/images/AOA_1.25MESH_256_CFL_1.0_Cp.png" alt="Pressure distribution for M=1.5, AOA = 1.25°" width="270"/>
   <img src="examples/NACA0012_M0.8/AOA_1.25/images/MESH_256_CFL_1.0_Cp.png" alt="Pressure distribution for M=0.8, AOA = 1.25°" width="270"/>
-  <img src="examples/NACA0012_M0.5/AOA_0/images/MESH_256_CFL_1.0_Cp.png" alt="Pressure distribution for M=0.5, AOA = 0°" width="270"/>
+  <img src="examples/NACA0012_M0.5/AOA_1.25/images/MESH_256_CFL_1.0_Cp.png" alt="Pressure distribution for M=0.5, AOA = 1.25°" width="270"/>
 </div>
 
 
