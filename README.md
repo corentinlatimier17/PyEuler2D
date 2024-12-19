@@ -1,3 +1,5 @@
+This code was developed as part of the 'Transonic Aerodynamics' course at Polytechnique Montréal.
+
 # **Objective**  
 
 The purpose of this solver is to compute fluid flow around airfoils by solving the **Euler equations** using the **Finite Volume Method (FVM)**. The key objectives are:  
