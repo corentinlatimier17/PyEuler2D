@@ -4,7 +4,7 @@ The purpose of this solver is to compute fluid flow around airfoils by solving t
 
 - **Accuracy**: Efficiently capture flow characteristics in subsonic, transonic, and supersonic regimes.  
 - **Speed**: The solver is entirely **vectorized**, enabling faster computations and efficient handling of large grids.
-- 
+
 # **Input and Output**
 
 ## **Input**  
