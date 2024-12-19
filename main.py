@@ -18,7 +18,7 @@ itermax  = 500000
 CFL      = 1.0
 
 # Flow conditions
-M_inf = 0.8 # Mach number of freestream flow
+M_inf = 0.5 # Mach number of freestream flow
 AOA   = 1.25 # angle of attack [deg]
 
 # Beginning of the computation
@@ -28,7 +28,7 @@ time_start = time()
 mesh = Mesh(filepath=mesh_filepath, n_ghosts=n_ghosts)
 
 # Output paths -> defines where to store the results
-folder = "examples/NACA0012_M0.8/AOA_1.25/"
+folder = "examples/NACA0012_M0.5/AOA_1.25/"
 beginByName = "MESH_" + str(mesh.ni) + "_CFL_" + str(CFL) + "_"
 
 # Create the folder if it does not exist
